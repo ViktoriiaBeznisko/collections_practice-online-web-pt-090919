@@ -40,15 +40,18 @@ def find_a (array)
 end
 
  
-  def sum_array(array)
+def sum_array(array)
     array.sum
-  end
+end
 
-  def add_s
-    array.each do |item|
-    item = "s"
-    item
-    # 'Add an "s" to each word in the array except for the 2nd element in the array' do
-      #(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
+def add_s (array)
+  array.collect.with_index do |word, index|
+    if index == 1 
+      word 
+    else 
+      word + "s"
     end
+  end
+end
+ 
 
