@@ -40,7 +40,8 @@ def find_a (array)
 end
 
  
-  def sum_array
+  def sum_array(array)
+    array.sum
     #'sum all the numbers in the following array' do
       #expect(sum_array([11,4,7,8,9,100,134])).to eq(273)
   end
