@@ -28,9 +28,9 @@ end
 
 def kesha_maker(array)
   array.each do |item|
-    array.collect do |element|
-    element[2] = "$"
-    element
+    item[2] = "$"
+    item
+  end
   
 
    # it 'taking an array as an input, change the 3rd character of each element to a dollar sign.' do
