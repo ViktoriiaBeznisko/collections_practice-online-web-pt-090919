@@ -21,9 +21,10 @@ end
 
 
 def reverse_array (array)
-  copy_array = array.sort.reverse
-  copy_array
+  copy_array = array.sort do |a, b|
+    b <=> a
     end
+  end
 
 
   def kesha_maker
