@@ -20,9 +20,8 @@ def swap_elements (array)
 end
 
 
-def reverse_array
-    #it 'reverse the order of an array of integers' do
-    #  expect(reverse_array([12, 4, 35])).to eq([35, 4, 12])
+def reverse_array (array)
+  copy_array = array.sort.reverse
     end
 
 
