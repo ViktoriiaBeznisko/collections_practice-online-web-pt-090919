@@ -14,21 +14,19 @@ def sort_array_char_count(array)
   end
 end
 
-describe '#swap_elements' do
-    it 'swap the second and third elements of an array' do
-      expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
+def swap_elements
+    #it 'swap the second and third elements of an array' do
+     # expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
     end
-  end
 
-  # Question 5
-  describe '#reverse_array' do
-    it 'reverse the order of an array of integers' do
-      expect(reverse_array([12, 4, 35])).to eq([35, 4, 12])
+
+  def reverse_array
+    #it 'reverse the order of an array of integers' do
+    #  expect(reverse_array([12, 4, 35])).to eq([35, 4, 12])
     end
-  end
 
 
-  def kesha_make
+  def kesha_maker
     # DO NOT USE .collect or .map. use .each to build a new array, like in the "my_each" lab!
    # it 'taking an array as an input, change the 3rd character of each element to a dollar sign.' do
       #expect(kesha_maker(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
