@@ -46,7 +46,7 @@ end
 
   def add_s
     array.each do |item|
-    item[2] = "$"
+    item = "s"
     item
     # 'Add an "s" to each word in the array except for the 2nd element in the array' do
       #(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
