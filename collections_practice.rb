@@ -22,6 +22,7 @@ end
 
 def reverse_array (array)
   copy_array = array.sort.reverse
+  copy_array
     end
 
 
