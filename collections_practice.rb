@@ -25,21 +25,16 @@ def reverse_array (array)
 end
 
 
-
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
     item
   end
-  
-
-   # it 'taking an array as an input, change the 3rd character of each element to a dollar sign.' do
-      #expect(kesha_maker(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
 end
 
 
-
-  def find_a
+def find_a (array)
+  
     #it 'find all words that begin with "a" in the following array' do
       #expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
   end
