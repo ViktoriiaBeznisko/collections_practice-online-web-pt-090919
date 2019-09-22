@@ -16,11 +16,11 @@ end
 
 def swap_elements (array)
   array[1], array[2] = array[2], array[1]
-    array
-  end
+  array
+end
 
 
-  def reverse_array
+def reverse_array
     #it 'reverse the order of an array of integers' do
     #  expect(reverse_array([12, 4, 35])).to eq([35, 4, 12])
     end
