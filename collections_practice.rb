@@ -21,9 +21,8 @@ end
 
 
 def reverse_array (array)
-  copy_array = array.sort do |a, b|
-    b <=> a
-    copy_array
+  array.sort do |a, b|
+  b <=> a
   end
 end
 
