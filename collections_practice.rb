@@ -34,10 +34,10 @@ end
 
 
 def find_a (array)
-  
-    #it 'find all words that begin with "a" in the following array' do
-      #expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+  array.select do |word|
+  word.chr == "a"
   end
+end
 
  
   def sum_array
