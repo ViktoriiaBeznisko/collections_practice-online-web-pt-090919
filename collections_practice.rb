@@ -14,9 +14,8 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements (array, index, destination_index)
-    #it 'swap the second and third elements of an array' do
-     # expect(swap_elements(["blake", "ashley", "scott"])).to eq(["blake", "scott", "ashley"])
+def swap_elements (array)
+  array[1], array[2] = array[2], array[1]
     end
 
 
